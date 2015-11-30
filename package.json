@@ -1,0 +1,35 @@
+{
+  "name": "app-cfg",
+  "version": "0.1.0",
+  "description": "Application configuartion for Node >= 4",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariuszp/app-cfg.git"
+  },
+  "keywords": [
+    "application",
+    "config",
+    "configuration",
+    "node",
+    "yaml",
+    "npmrc",
+    "merge"
+  ],
+  "author": "Półtorak Dariusz <poltorak.dariusz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariuszp/app-cfg/issues"
+  },
+  "homepage": "https://github.com/dariuszp/app-cfg#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
